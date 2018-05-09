@@ -1,0 +1,8 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+// mainClassName = 'animal.CallAnimals'
+// mainClassName = 'animal.CallAnimals2'
+// mainClassName = 'score.UseTestScore'
+// mainClassName = 'score.UseTestScoreCon'
+mainClassName = 'score.UseTestScore5'

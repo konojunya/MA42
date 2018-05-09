@@ -9,10 +9,10 @@ public class birthdayReminder {
         new GirlFriend("りえ", 1987, 12, 23) };
 
     System.out.println("クラスの確認2:誕生日リマインダ");
-    for (int Month = 1; Month < 12; Month++) {
-      System.out.println(Month + "月");
+    for (int month = 1; month <= 12; month++) {
+      System.out.println(month + "月");
       for (GirlFriend girl : girls) {
-        if (Month == girl.getBirthMonth()) {
+        if (month == girl.getBirthMonth()) {
           StringBuffer names = new StringBuffer();
           names.append(girl.getName());
           names.append("ちゃんが");

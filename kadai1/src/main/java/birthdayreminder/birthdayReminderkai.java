@@ -10,14 +10,14 @@ public class birthdayReminderkai {
 
     System.out.println("クラスの確認2:誕生日リマインダ");
 
-    for (int Month = 1; Month < 12; Month++) {
+    for (int month = 1; month <= 12; month++) {
 
       boolean flg = true;
 
-      System.out.println(Month + "月");
+      System.out.println(month + "月");
 
       for (GirlFriend girl : girls) {
-        if (Month == girl.getBirthMonth()) {
+        if (month == girl.getBirthMonth()) {
           StringBuffer names = new StringBuffer();
           names.append(girl.getName());
           names.append("ちゃんが");

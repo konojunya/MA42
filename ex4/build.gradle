@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+// mainClassName = 'array.UseArray'
+// mainClassName = 'array.UseArrayList'
+// mainClassName = 'list.UseList'
+// mainClassName = 'list.UseSet'
+// mainClassName = 'list.UseSortedSet'
+// mainClassName = 'map.SeveralMapsSample'
+// mainClassName = 'map.UseMap'
+mainClassName = 'practice.UseMapAndEntity'
